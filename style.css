@@ -184,12 +184,12 @@ header img {
     font-size: 10px;
 }
 
-.tag p:nth-child(2){
+.tag p:nth-child(2) {
     color: var(---amarelo);
     font-size: 16px;
 }
 
-.construct{
+.construct {
     height: 560px;
     width: 100%;
     margin-bottom: 80px;
@@ -197,13 +197,13 @@ header img {
     overflow: hidden;
     border: 2px solid rgba(255, 184, 0, 0.8);
     box-shadow:
-    0 0 20px rgba(255, 184, 0, 0.45),
-    0 0 60px rgba(255, 184, 0, 0.25);
+        0 0 20px rgba(255, 184, 0, 0.45),
+        0 0 60px rgba(255, 184, 0, 0.25);
 
     background: #111;
 }
 
-.botao{
+.botao {
     display: flex;
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -217,15 +217,16 @@ header img {
     width: 300px;
     padding: 20px;
 }
-.botao svg{
+
+.botao svg {
     width: 30px;
 }
 
-.botao:houver{
+.botao:hover {
     color: #fff;
 }
 
-footer{
+footer {
     background-color: #020c18;
     padding: 80px 0;
     color: #64748b;
@@ -233,48 +234,48 @@ footer{
     font-weight: 300;
 }
 
-.roda_pe{
+.roda_pe {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 80px;
 }
 
-.logo_footer{
+.logo_footer {
     max-width: 320px;
 }
 
-.logo_footer img{
+.logo_footer img {
     margin-bottom: 20px;
 }
 
-.logo_footer P{
+.logo_footer P {
     line-height: 1.6;
 }
 
-.titulo_footer{
+.titulo_footer {
     font-family: "Orbitron", sans-serif;
     color: var(---azul);
     margin-bottom: 20px;
-text-transform: uppercase;
-font-size: 14px;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
-.navegacao_footer ul{
-list-style: none;
+.navegacao_footer ul {
+    list-style: none;
 }
 
-.navegacao_footer li{
+.navegacao_footer li {
     margin-bottom: 10px;
     cursor: pointer;
     transition: 0.2s;
 }
 
-.navegacao_footer li:houver{
+.navegacao_footer li:hover {
     color: var(---azul);
 }
 
-.item_contato{
+.item_contato {
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -282,20 +283,20 @@ list-style: none;
     gap: 5px;
 }
 
-.item_contato svg{
+.item_contato svg {
     width: 30px;
     height: 30px;
     fill: #fff;
     color: #fff;
 }
 
-.social{
+.social {
     margin-top: 15px;
     display: flex;
     gap: 10px;
 }
 
-.social svg{
+.social svg {
     width: 30px;
     height: 30px;
     display: flex;
